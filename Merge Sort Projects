@@ -1,0 +1,22 @@
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+                       [16,21,11,8,12,22] --> ortadan 2'ye bölüyoruz
+                       
+                 [16,21]     [11]  ,   [8,12]     [22]    tek bir eleman kalana kadar hep 2'ye bölüyoruz
+                 /    \       /        /    \        \
+                [16]  [21]   [11]     [8]  [12]     [22]  hepsi tek bir elamana dönüştü, şimdi sıralı bir şekilde birleştirme işlemini uyguluyoruz
+
+                [16] [21] [11]  ,   [8] [12] [22]         sağ ve sola kendi aralarında ayrılanları büyükten küçüğe sıralıyoruz 
+                    /       \          /       \
+                [16,21]     [11]    [8,12]     [22]       biliyoruz ki ilk basamaktakiler küçük olanlar (16 ve 8)
+                         /                  \
+                    [11,16,21]    ,      [8,12,22]        küçükten büyüğe sorgulayıp sıralı şekilde yazıyoruz
+
+                          [8,11,12,16,22,22] --> son hali bu şekilde...
+                          
+                    
+
+Big-O gösterimini yazınız. --> O (nlogn)
