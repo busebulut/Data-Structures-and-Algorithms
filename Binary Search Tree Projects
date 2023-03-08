@@ -1,0 +1,15 @@
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+Root 7'dir. Root'un sağında 8 bulunur. Solunda ise 5 bulunur.
+                   7
+                /     \        *büyükler sağ, küçükler sola gelecek şekilde yazılırlar. 7 root'tur, sonrası gelen sayı 5
+               5       8        ve 7 den küçük olduğu için soluna yazıyoruz. Sırada 1 var, 1 ise hem 7'den hem de 5'ten küçük
+             /   \      \       olduğu için 5'in soluna yazıyoruz, 8 ise 7'den büyüktür ve kural gereği sağa yazılır...
+           1      6      9      bu şekilde sırası gelen sayıyı teker teker sorgulayıp yerine yerleştirdiğimiz zaman ortaya sol
+         /   \                  tarafta ki sıralama (şeki) ortaya çıkıyor.
+       0      3
+            /   \
+          2       4
