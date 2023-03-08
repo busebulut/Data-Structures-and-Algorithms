@@ -1,6 +1,6 @@
 # Patika.dev_Projects
 
 # Data-Structures-and-Algorithms 
-# Selection Sort Projects
-# Merge Sort Projects
-# Binary Search Tree Projects
+# *Selection Sort Projects
+# *Merge Sort Projects
+# *Binary Search Tree Projects
